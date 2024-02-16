@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav px-5 ms-md-auto">
                     <li class="nav-item ">
-                        <a class="nav-link active text-white" title="Inicio" target="_blank" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active text-white" title="Inicio" target="_parent" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link active text-white" title="Recetas" target="_blank" aria-current="page" href="#">Quienes Somos</a>
@@ -107,10 +107,10 @@
     <!--Cierre Presentacion-->
     <!--Inicio Destacados-->
     <section class="destacados bg-black text-white">
-        <div class="container">
+        <div class="container px-2">
             <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
             <hr>
-            <div class="container-fluid  d-flex justify-content-evenly ">
+            <div class="container-fluid px-5 ">
                 <div class="card-group">
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12 py-3">
@@ -118,7 +118,7 @@
                                 <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                                 <div class="card-body bg-info text-white">
                                   <h5 class="card-title">Lorem Ipsum</h5>
-                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet, turpis ut scelerisque aliquet, nibh libero placerat ipsum, ac tincidunt enim massa ac lacus.  </p>
+                                  <p class="card-text text-fluid">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet, turpis ut scelerisque aliquet, nibh libero placerat ipsum, ac tincidunt enim massa ac lacus.  </p>
                                 
                                 </div>
                             </div>
@@ -158,6 +158,29 @@
         
     </section>
     <!--Cierre Destacados-->
+    <!--Inicio Contacto-->
+    <section class="contacto bg-black text-white pb-5">
+        <div class="container">
+            <h2 class="text-center pt-5 pb-3">Contacto</h2>
+            <hr>
+            <form class="px-5">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="asunto" class="form-label">Asunto</label>
+                  <input type="text" class="form-control" id="asunto">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-info text-white">Enviar</button>
+              </form>
+        </div>
+    </section>
+    <!--Cierre Contacto-->
     <!--Cierre Main-->
 
     <!--Scripts-->
