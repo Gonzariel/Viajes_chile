@@ -1,0 +1,16 @@
+
+/*Style Header*/
+.carousel-inner {
+    max-height: 600px;
+    height: auto;
+}
+
+
+
+@media only screen and (min-width: 1100px) {  
+    .carousel-inner {
+        max-height: 750px;
+    }
+    
+   
+}
