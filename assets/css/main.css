@@ -4,12 +4,23 @@
     max-height: 600px;
     height: auto;
 }
+.carousel-inner img{
+    object-fit: cover;
+}
 
+/*Style Destacados*/
+.card-body {
+    min-height: 88px;
+}
 
+.card-group img{
+    height: 130px;
+    object-fit: cover;
+}
 
 @media only screen and (min-width: 1100px) {  
     .carousel-inner {
-        max-height: 750px;
+        max-height: 650px;
     }
     
    
