@@ -18,6 +18,12 @@
     object-fit: cover;
 }
 
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
 
 .alert-info{
     display: none;
