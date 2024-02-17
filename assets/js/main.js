@@ -43,7 +43,7 @@ $(function() {
     
           $('html, body').animate({
             scrollTop: $(hash).offset().top
-          }, 200, function(){
+          }, 300, function(){
     
             window.location.hash = hash;
           });
